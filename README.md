@@ -31,11 +31,9 @@ Git is a Distributed Version Control System (DVCS) created by Linus Torvalds in 
 mkdir my project
 cd myproject
 ```
-Here, 
-- mkdir -> makes a new directory
-- cd -> changes the current working directory
-
-<br>
+>Here, 
+>- mkdir -> makes a new directory
+>- cd -> changes the current working directory
 
 #### **Initialize Git :**
 ```
@@ -46,14 +44,12 @@ Now Git knows that it should watch the folder you initiated on i.e. it is now a 
 ```
 ls
 ```
-- ls -> will list all the files in the present working directory
+>ls -> will list all the files in the present working directory
 
 ```
 git status
 ```
-- git status -> to see if the file is part of our repo or overall repo information
-
-<br>
+>git status -> to see if the file is part of our repo or overall repo information
 
 #### Files in your Git repo folder can be in one of 2 states:
 1. **Tracked** - Files that Git knows about and are added to the repo
@@ -63,7 +59,7 @@ When you first add files to an empty repo, they are all untracked. To get Git to
 
 <br>
 
-### **Git Staging Environment :**
+## **Git Staging Environment :**
 Staged files are the files that are ready to be committed to the repo you're working on.
 
 **Add only one file to the staging environment:**
@@ -74,21 +70,16 @@ git add index.html
 ```
 git add --all
 ```
-<p style="text-align: center;">or</p>
-
+or
 ```
 git add -A
 ```
-
-<p style="text-align: center;">or</p>
-
+or
 ```
 git add .
 ```
 
-<br>
-
-### **Git Commit :**
+## **Git Commit :**
 Adding commits keep track of our progress and changes as we work. Git considers each commit as "change point" or "save point". It is a point in the project you can go back to if you find a bug or want to make a change.
 
 ```
@@ -107,16 +98,14 @@ To view the history of commits for a repository
 git log
 ```
 
-<br>
-
 #### **Git status short :**
 ```
 git status --short
 ```
-- ?? - Untracked files
-- A - Files added to stage
-- M - Modifies files
-- D - Deleted files
+>- ?? - Untracked files
+>- A - Files added to stage
+>- M - Modifies files
+>- D - Deleted files
 
 ### **Git help :**
 If you're having a trouble remembering commands or options for commands, git help is used.
@@ -172,26 +161,20 @@ git checkout hello-world
 >moves our current workspace from maste branch to the new branch
 
 ```
-git checkout maste
+git checkout master
 ```
 >switched back to masterb branch
-
-<br>
 
 #### **Emergency Branch :**
 ```
 git checkout -b emergency-fix
 ```
-Creates a new branch repo named emergency-fix and directly moves to that branch
-
-<br>
+>Creates a new branch repo named emergency-fix and directly moves to that branch
 
 #### **Delete Branch :**
 ```
 git branch -d emergency-fix
 ```
-
-<br>
 
 #### **Merge Branches :**
 ```
