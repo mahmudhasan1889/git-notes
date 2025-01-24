@@ -79,6 +79,8 @@ or
 git add .
 ```
 
+<br>
+
 ## **Git Commit :**
 Adding commits keep track of our progress and changes as we work. Git considers each commit as "change point" or "save point". It is a point in the project you can go back to if you find a bug or want to make a change.
 
