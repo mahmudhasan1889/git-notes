@@ -3,14 +3,10 @@
 # **Git**
 Git is a Distributed Version Control System (DVCS) created by Linus Torvalds in 2005, and has been maintained by Junio Harmano since then.
 
-<br>
-
 #### **Used for :**
 1. Tracking codes
 2. Tracking who made the changes
 3. Coding collaboration
-
-<br>
 
 #### **What does git do?**
 1. Manage projects with repositories
@@ -19,8 +15,6 @@ Git is a Distributed Version Control System (DVCS) created by Linus Torvalds in 
 4. Branch and Merge to allow for working on different parts and versions of project
 5. Push local updates to the main project
 6. Pull latest version of the project to a local copy
-
-<br>
 
 #### **Working with git :**   
 1. Initialize git on a folder, making it a repository
@@ -31,9 +25,6 @@ Git is a Distributed Version Control System (DVCS) created by Linus Torvalds in 
 6. Git allows you to see the full history of every commit.
 7. You can revert back to any previous commit
 8. Git does not store a separate copy of every file in every commit but keeps track of changes made in each commit
-
-
-<br>
 
 #### **Creating Git folder :**
 ```
