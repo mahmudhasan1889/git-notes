@@ -111,7 +111,7 @@ git status --short
 
 <br>
 
-### **Git help :**
+## **Git help**
 If you're having a trouble remembering commands or options for commands, git help is used.
 ```
 git command -help
