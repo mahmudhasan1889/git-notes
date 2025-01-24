@@ -109,6 +109,8 @@ git status --short
 >- M - Modifies files
 >- D - Deleted files
 
+<br>
+
 ### **Git help :**
 If you're having a trouble remembering commands or options for commands, git help is used.
 ```
@@ -129,7 +131,7 @@ git help --all
 
 <br>
 
-### **Git Branch**
+## **Git Branch**
 - In Git, a branch is a new or separate version of the main repository.
 - Branches will allow you to work on different parts of a project without impacting the main branch.
 - When the work is complete, a branch can be merged with the main project.
