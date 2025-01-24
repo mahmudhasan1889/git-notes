@@ -59,7 +59,7 @@ When you first add files to an empty repo, they are all untracked. To get Git to
 
 <br>
 
-## **Git Staging Environment :**
+## **Git Staging Environment**
 Staged files are the files that are ready to be committed to the repo you're working on.
 
 **Add only one file to the staging environment:**
@@ -81,7 +81,7 @@ git add .
 
 <br>
 
-## **Git Commit :**
+## **Git Commit**
 Adding commits keep track of our progress and changes as we work. Git considers each commit as "change point" or "save point". It is a point in the project you can go back to if you find a bug or want to make a change.
 
 ```
